@@ -29,15 +29,6 @@ body {
     animation: fadeInUp 1s ease-out forwards; 
 }
 
-
-@media (max-width: 480px) {
-    body {
-        width: 90%;            
-        margin: 20px auto;     
-        box-sizing: border-box;
-    }
-}
-
 img {
     margin-top: 30px;
     border-radius: 500px;
@@ -134,5 +125,14 @@ h1 a:hover {
     }
     .mobile-link {
         display: block !important;
+    }
+
+
+    @media (max-width: 480px) {
+        body {
+            width: 90%;            
+            margin: 20px auto;     
+            box-sizing: border-box;
+        }
     }
 }
